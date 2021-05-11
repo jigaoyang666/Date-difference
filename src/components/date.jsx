@@ -46,7 +46,6 @@ class Difference extends Component {
       tempDate = Date2.split(" ");
       newDate2 = new Date(tempDate[1] + "-" + tempDate[0] + "-" + tempDate[2]);
       Days = parseInt(Math.abs(newDate1 - newDate2) / 1000 / 60 / 60 / 24);
-      //console.log("1234");
       const value= input+ ', '+Days;
       return value;
     } else return false;
