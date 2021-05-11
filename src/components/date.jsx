@@ -13,8 +13,6 @@ class Difference extends Component {
   };
 
   isDate = (input) => {
-     //if (!input)
-     //return false;
     if (input.length !== 22)
       // To verify whether user is standard imput or not
       return false;
